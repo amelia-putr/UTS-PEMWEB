@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Berita</title>
+    <style>
+        input{
+            margin-left: 53px;
+        }
+        legend{
+            text-align: center;
+        }
+        body{
+            background-color:azure;
+        }
+        form{
+            margin: 50px;
+            padding-bottom: 10px;
+        }
+        input{
+            background-color: azure;
+        }
+        .history{
+            float: right;
+            text-decoration: none;
+        }
+        div{
+            list-style-type: none;
+            text-decoration: underline; 
+            padding-right: 30px;
+
+        }
+        ul{
+            text-decoration: none;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="POST">
+    <fieldset>
+        <div class="history">
+            <ul>
+                <a href="">Home</a>
+                <a href="">Admin</a>
+                <a href="">Kelola Masjid</a>
+
+            </ul>
+        </div>
+    <br>
+        <legend>Form Berita</legend>
+        <label for="firstlast">Nama Masjid:</label>
+        <input type="text" name="customername" id="customername">
+        <br>
+        <br>
+    
+        <label for="firstlast">Judul Berita:</label>
+        <input type="Text" name="customername" id="customername">
+        <br>
+        <br>
+        
+        <label for="firstlast">Isi Berita:</label>
+        <input type="Text" name="customername" id="customername">
+        <br>
+        <br>
+       
+        <label for="firstlast">Penulis:</label>
+        <input type="Text" name="customername" id="customername">
+        <br>
+        <br>
+        
+        <label for="Tanggal_Terbit">Tanggal Terbit:</label>
+        <input type="date" name="tanggal_terbit" id="tanggal_terbit">
+        <br>
+        <br>
+        
+        <label for="firstlast">Status Berita:</label>
+        <input type="radio" name="crust" value="draft" checked>Draft
+        <input type="radio" name="crust" value="submit" checked>Submit
+        <input type="radio" name="crust" value="review" checked>Review
+        <input type="radio" name="crust" value="reject" checked>Reject
+        <input type="radio" name="crust" value="approve" checked>Approve
+        <br>
+        <br>
+        
+        <button><a>Simpan</a></button>
+        <button><a>Update</a></button>
+        <button><a>Hapus</a></button>
+    </fieldset>
+</form>
+</body>
+</html>
